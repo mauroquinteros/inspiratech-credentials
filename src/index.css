@@ -135,3 +135,20 @@ input[type="range"].zoom-slider::-moz-range-thumb {
   border-radius: 16px;
   overflow: hidden;
 }
+
+/* Validation input placeholder */
+.validation-input::placeholder {
+  color: #777680;
+  font-weight: 400;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-4px); }
+  40%, 80% { transform: translateX(4px); }
+}
+
+@keyframes errorAppear {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
