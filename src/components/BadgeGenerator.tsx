@@ -70,7 +70,7 @@ export function BadgeGenerator() {
     try {
       const canvas = await composeImage(templateSrc, croppedDataUrl);
       downloadCanvas(canvas);
-      showToast("success", "¡Listo! Tu badge se descargó correctamente");
+      showToast("success", "¡Listo! Tu credencial se descargó correctamente");
     } catch {
       showToast("error", "No se pudo generar el archivo. Intentá de nuevo.");
     }
@@ -121,13 +121,13 @@ export function BadgeGenerator() {
             style={{
               fontFamily: "Montserrat, sans-serif",
               fontWeight: 700,
-              fontSize: "clamp(28px, 5vw, 32px)",
-              lineHeight: 1.15,
-              color: "#1b1b1f",
+              fontSize: "clamp(28px, 5vw, 36px)",
+              lineHeight: 1.2,
+              color: '#2b18ea',
               margin: 0,
             }}
           >
-            Crea tu badge del programa
+            Crea tu credencial del programa
           </h1>
           <p
             className="mx-auto mt-4"

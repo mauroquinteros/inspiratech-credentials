@@ -24,7 +24,7 @@ export function DownloadButton({ disabled = false, onClick }: Props) {
         }}
       >
         <Download size={20} />
-        Descargar mi badge
+        Descargar mi credencial
       </button>
     )
   }
@@ -58,7 +58,7 @@ export function DownloadButton({ disabled = false, onClick }: Props) {
       }}
     >
       <Download size={20} />
-      Descargar mi badge
+      Descargar mi credencial
     </button>
   )
 }
